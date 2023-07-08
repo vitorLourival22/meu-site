@@ -1,23 +1,125 @@
 body {
-    background-color: gray;
-    color: black;
-    font-size: 50px;
+    background-image: url("https://p2.trrsf.com/image/fget/cf/1200/675/middle/images.terra.com/2023/02/18/919177108-brasileirao-a.jpg")
+
 }
 table, th, td, tr{
     border-style: solid;
     border-width: 5px ;
     border-collapse: collapse;
-    border-color: aquamarine;
-    background-color: burlywood;
+    border-color: coral;
+    background-color: orange;
     font-family: Arial, Helvetica, sans-serif;
-
 }
+
+
 
 div.tabela{
    text-align: center;
    background-color: coral;
 }
 
+div#sobre{
+    background-color: rgb(50, 96, 26);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+
+}
+
 table{
     margin: auto;
+    font-size: 4small;
+    background-color: green;
 }
+
+th{
+background-color: green;
+
+}
+tr{
+background-color: blue;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.logo i{
+    color: var(--main-color);
+    font-size: 62px;
+    margin-right: 20px;
+}
+
+h1{
+    background-color: green;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.menu{
+    position:relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 30px 8%;
+    background-color:green;
+
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    }
+
+    .menu li a{color:#f1efef; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#0c0c0c;
+    display:none;
+    }
+
+    .menu li:hover ul, .menu li.over ul{display:block;}
+
+    .header-icons{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-icons i{
+        margin-right: 25px;
+        font-size: 28px;
+        cursor: pointer;
+        transition: all .5s ease;
+    }
+    
+    .header-icons i:hover{
+        transform: translateY(-5px);
+        color: var(--main-color);
+    }
