@@ -1,3 +1,122 @@
+<<<<<<< HEAD
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.login{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(https://i.pinimg.com/originals/6e/1b/75/6e1b7599af65dab06f279d797eb47d89.png);
+}
+
+.left-login{
+width: 50vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.login h1{
+color: rgb(252, 248, 23);
+padding: 50px;
+
+}
+
+h2{
+    color: gold;
+}
+
+.left img{
+    width: 35vw;
+}
+
+
+.right-login{
+width: 50vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-login{
+width:60%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 45px 35px;
+background-image: url(g.webp);
+border-radius: 20px;
+}
+
+.card h1{
+color: #e2e20a;
+font-weight: 800;
+margin: 0;
+}
+
+.text{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+margin: 10px 0px;
+
+}
+
+.text input{
+width: 100%;
+border: none;
+border-radius: 10px;
+padding: 15px;
+font-size: 12pt;
+outline: none;
+box-sizing: border-box;
+}
+
+text label{
+color: rgb(253, 217, 13);
+margin-bottom: 10px;
+
+}
+
+.btn{
+width: 100%;
+padding: 16px 0px;
+margin: 25px;
+border: none;
+border-radius: 8px;
+outline: none;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 3px;
+color:gold;
+background-color: blue;
+transition: all.55s ease;
+cursor: pointer;
+
+}
+
+div i{
+position: absolute;
+right:285px;
+font-size: 20px;
+cursor: pointer;
+}
+
+label{
+color: #e2e20a;
+
+}
+=======
 
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 body{
@@ -109,3 +228,4 @@ right:200px;
 font-size: 20px;
 cursor: pointer;
 }
+>>>>>>> d6f3539090dc14a3eab5dc997178f495af0f84a1

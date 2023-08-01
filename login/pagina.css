@@ -1,0 +1,473 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+background-image:url(clickwallpapers-Brasileirão-img3.jpg);
+
+}
+
+header{
+
+background-color: green;
+
+}
+
+.menu-principal{
+
+display: flex;
+
+
+}
+
+.text-menu{
+
+    display: flex;
+    width: 40px;
+    size: 40px;
+    font-size: 24px;
+    margin-left: 10px;
+    color: aliceblue;
+
+}
+
+.bars{
+display: flex;
+background-color: green;
+
+}
+
+
+
+
+.menu{
+    position:relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    background-color:gold;
+}
+
+.before{
+    display: flex;
+    margin-top: -18px;
+
+}
+
+.logo-area{
+
+    display:flex;
+    font-size: 0;
+    position:relative;
+    text-align: center;
+    margin-right: 690px;
+  }
+
+
+
+.logo{
+align-content: center;
+display: flex;
+justify-content: center;
+background-color: green;
+}
+
+
+.pesquisa{
+    display: inline-block;
+    position: absolute;
+    right: .75rem;
+    top: 0;
+    height: 100%;
+    min-width: 30px;
+  }
+
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    }
+
+    .menu li a{color:green; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:gold;
+color:#050505;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:rgb(255, 255, 253);
+    display:none;
+    }
+
+    .menu li:hover ul, .menu li.over ul{display:block;}
+
+    h1{
+font-size: 40px;
+background-color:gold;
+display:flex;
+align-items: center;
+    }
+
+    label{
+display: flex;
+align-items: end;
+justify-content: center;
+
+    }
+    
+input{
+display: flex;
+border: none;
+border-radius: 10px;
+padding: 8px;
+max-width: 189px;
+margin: 64px
+}
+
+
+
+.logo-i{
+    justify-content: end;
+    align-items:end ;
+    margin-right: 1363px;
+    margin-left: -70px;
+    size: 150;
+    cursor: pointer;
+
+
+
+}
+
+
+
+.logo-i{
+    justify-content: end;
+    align-items:end ;
+    margin-right: 1363px;
+    margin-left: -70px;
+    size: 150;
+    cursor: pointer;
+
+
+
+}
+
+    img{
+justify-content:right;
+cursor: pointer;
+    }
+
+h2{
+display: flex;
+justify-content:end;
+justify-content: top;
+
+}
+
+
+
+.logo-i{
+    justify-content: end;
+    align-items:end ;
+    margin-right: 1363px;
+    margin-left: -70px;
+    size: 150;
+    cursor: pointer;
+
+
+}
+
+.slide-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slide-list {
+    display: flex;
+}
+
+.slide-item {
+    cursor: grab;
+    flex-shrink: 0;
+    padding: 0 10px;
+    width: 50vw;
+}
+
+.slide-content {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: #070707 0px 12px 12px;
+    position: relative;
+}
+
+.slide-image {
+    border-radius: 0px;
+    width: 30px;
+}
+
+.slide-description {
+    border-radius: 10px;
+    background: linear-gradient(to top, #000, transparent);
+    color: #fff;
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+}
+
+.slide-description h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 16px
+}
+
+.slide-description p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.slide-nav-button {
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 36px;
+    position: absolute;
+    z-index: 1;
+}
+
+.slide-nav-previous {
+    left: 20px;
+}
+
+.slide-nav-next {
+    right: 20px;
+}
+
+.slide-controls {
+    margin: 30px auto 0;
+}
+
+.slide-control-button {
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.slide-control-button.active {
+    color: #cd8cf5;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-description {
+        padding: 5px;
+    }
+    
+    .slide-description h3 {
+        font-size: 14px;
+        top: 0;
+    }
+
+    .slide-description p {
+        display: none;
+    }
+
+    .slide-nav-button {
+        margin-top: -20px;
+        font-size: 28px;
+    }
+    
+    .slide-nav-previous {
+        left: 10px;
+    }
+    
+    .slide-nav-next {
+        right: 10px;
+    }
+
+    .slide-controls {
+        margin: 15px auto 0;
+    }
+
+    .slide-control-button {
+        font-size: 20px;
+    }
+}
+
+
+.aba{
+
+border-radius: 20px;
+justify-content:baseline;
+align-items:baseline;
+
+}
+
+table, th, td, tr{
+    border-style: solid;
+    border-width: 5px ;
+    border-collapse: collapse;
+    border-color: coral;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    }
+
+.wrapper {
+  max-width: 1163px;
+  width: 100%;
+  position: relative;
+  margin-left: 231px;
+}
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -22px;
+  top: 177px;
+}
+.wrapper i:last-child{
+  right: -22px;
+  top: 177px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background:green;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+
+}
+.carousel .card .img {
+  background: #8B53FF;
+  height: 148px;
+  width: 148px;
+  border-radius: 50%;
+}
+.card .img img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+.carousel .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+}
+.carousel .card span {
+  color:gold;
+  font-size: 1.31rem;
+}
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+
+.jogador{
+font-size: 40px;
+color: green;
+text-align: center;
+
+}
+
+h4{
+
+background-color: gold;
+
+}
+
+h5{
+
+background-color: gold;
+
+}
+
+.tabela{
+  font-size: 40px;
+  color: green;
+  text-align: center;
+
+}
